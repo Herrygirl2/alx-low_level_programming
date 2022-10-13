@@ -19,12 +19,16 @@
 
 **Task 3:** A script that compiles a C file and creates an executable named `cisfun`. The C file name will be saved in the variable `$CFILE`
 
-**Task 4:** A script that creates an empty file called `hello`
+**Task 4:** A C program that prints exactly `"Programming is like building a multilingual puzzle, followed by a new line`. Use the function `puts`
 
-**Task 5:** A script that adds execute permission to the owner of the file `hello`. The file `hello` will be in the working directory
+**Task 5:** A C program that prints exactly `with proper grammar, but the outcome is a piece of art,`, followed by a new line. Use the function `printf`
 
-**Task 6:** A script that adds execute permission to the owner and the group owner, and read permission to other users, to the file `hello`. The file `hello` will be in the working directory
+**Task 6:** A C program that prints the size of various types on the computer it is compiled and run on
 
-**Task 7:** A script that adds execution permission to the owner, the group owner and the other users, to the file `hello`. The file `hello` will be in the working directory
+**Task 7:** A script that generates the assembly code (Intel syntax) of a C code and save it in an output file.
 
-**Task 8:** A script that sets the permission to the file `hello` as follows:
+                        The C file name will be saved in the variable "$CFILE"
+                        The output file should be named the same as the C file, but with the extension ".s" instead of ".c"
+                        Example: if the C file is "main.c", the output file should be "main.s"
+
+**Task 8:** A C program that prints exactly `and that piece of art is useful" - Dora Korpar, 2015-10-19`, followed by a new line, to the standard error
