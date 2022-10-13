@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main = main function entry point
  * Always return 0 on success
