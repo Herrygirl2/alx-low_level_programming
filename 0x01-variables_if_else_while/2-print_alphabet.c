@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - main function is the entry point
- * Return: Always return 0 on success
- */
+ * main - Prints the alphabetic
+ *
+ * Return: Always (Success)
+ **/
 int main(void)
 {
-	int a;
-	for (a=97; a<=27; a++)
-{
-		putchar(a);
-	putchar(10);
-} 
-	
-	return (0);
+		char c;
+
+		for (c = 'a'; c <= 'z'; c++)
+			putchar(c);
+
+		putchar('\n');
+		return (0);
 }
