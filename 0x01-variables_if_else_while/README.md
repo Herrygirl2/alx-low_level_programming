@@ -4,22 +4,61 @@
 
 **Task 1:** This program will assign a random number to the variable `n` each time it is executed and print the last digit of the number stored in the variable `n`
 
-Task 2: A script that generates the assembly code of a C code and save it in an output file.
+**Task 2:** A program that prints the alphabet in lowercase, followed by a new line
 
-                  The C file name will be saved in the variable "$CFILE"
-                  The output file should be named the same as the C file, but with the extension ".s" instead of ".c"
-                      Example: if the C file is "main.c", the output file should be "main.s"
-Task 3: A script that compiles a C file and creates an executable named cisfun. The C file name will be saved in the variable $CFILE
+**Task 3:** A program that prints the alphabet in lowercase, and then in uppercase, followed by a new line
 
-Task 4: A C program that prints exactly "Programming is like building a multilingual puzzle, followed by a new line. Use the function puts
+**Task 4:** A program that prints the alphabet in lowercase, followed by a new line. It print all the letters except `q` and `e` 
 
-Task 5: A C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line. Use the function printf
+**Task 5:** A program that prints all single digit numbers of base 10 starting from `0`, followed by a new line
 
-Task 6: A C program that prints the size of various types on the computer it is compiled and run on
+**Task 6:** A program that prints all single digit numbers of base 10 starting from `0`, followed by a new line by using `putchar`
 
-Task 7: A script that generates the assembly code (Intel syntax) of a C code and save it in an output file.
+**Task 7**: A program that prints the lowercase alphabet in reverse, followed by a new line
 
-                    The C file name will be saved in the variable "$CFILE"
-                    The output file should be named the same as the C file, but with the extension ".s" instead of ".c"
-                    Example: if the C file is "main.c", the output file should be "main.s"
-Task 8: A C program that prints exactly and that piece of art is useful" - Dora Korpar, 2015-10-19, followed by a new line, to the standard error
+**Task 8:** A program that prints all the numbers of base 16 in lowercase, followed by a new line
+
+**Task 9:** A program that prints all possible combinations of single-digit numbers.
+
+                        Numbers must be separated by ',', followed by a space
+                        Numbers should be printed in ascending order
+                        You can only use the putchar function
+                        All your code should be in the `main` function
+                        You can only use putchar four times maximum in your code
+
+**Task 10:** A program that prints all possible different combinations of two digits.
+
+                        Numbers must be separated by ',', followed by a space
+                        The two digits must be different
+                        01 and 10 are considered the same combination of the two digits 0 and 1
+                        Print only the smallest combination of two digits
+                        Numbers should be printed in ascending order, with two digits
+                        You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
+                        You can only use putchar five times maximum in your code
+                        You are not allowed to use any variable of type char
+                        All your code should be in the main function
+
+**Task 11:** A program that prints all possible different combinations of three digits.
+
+                        Numbers must be separated by ',', followed by a space
+                        The three digits must be different
+                        012, 120, 102, 021, 201, 210 are considered the same combination of the three digits 0, 1 and 2
+                        Print only the smallest combination of three digits
+                        Numbers should be printed in ascending order, with three digits
+                        You can only use the putchar function
+                        You can only use putchar six times maximum in your code
+                        You are not allowed to use any variable of type char
+                        All your code should be in the main function
+
+**Task 12:** A program that prints all possible combinations of two two-digit numbers.
+
+                      The numbers should range from 0 to 99
+                      The two numbers should be separated by a space
+                      All numbers should be printed with two digits. 1 should be printed as 01
+                      The combination of numbers must be separated by comma, followed by a space
+                      The combinations of numbers should be printed in ascending order
+                      00 01 and 01 00 are considered as the same combination of the numbers 0 and 1
+                      You can only use the putchar function
+                      You can only use putchar eight times maximum in your code
+                      You are not allowed to use any variable of type char
+                      All your code should be in the main function
