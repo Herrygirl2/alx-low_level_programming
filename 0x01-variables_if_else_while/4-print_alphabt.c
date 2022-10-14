@@ -1,22 +1,18 @@
 #include <stdio.h>
-
 /**
- * main - main function is the entry point
- * Return: Always return 0 on success
+ *main - entry point
+ *Description: random number in n +ve/-ve
+ *Return: 0 on success
  */
 int main(void)
 {
-	char a;
-
-	for (a = 'a'; a <= 'z'; a++)
-	{
-		if (a != 'e' && a != 'q')
-		{
-			putchar(a);
-		}
-	} 
-	
-	putchar('\n');
-
-	return (0);
+int firstLetter, n;
+for (firstLetter = 97, n = 1; n < 27; firstLetter++, n++)
+{
+if (firstLetter == 101 || firstLetter == 113)
+continue;
+putchar(firstLetter);
+}
+putchar(10);
+return (0);
 }
