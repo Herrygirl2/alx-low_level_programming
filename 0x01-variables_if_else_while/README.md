@@ -1,4 +1,4 @@
-# 0x01. C - Variables, if, else, while
+# 0x01. C - Variables, if, else, while Tasks
 
 **Task 0:** This program will assign a random number to the variable `n` each time it is executed and print whether the number stored in the variable `n` is positive or negative
 
@@ -12,7 +12,7 @@
 
 **Task 5:** A program that prints all single digit numbers of base 10 starting from `0`, followed by a new line
 
-**Task 6:** A program that prints all single digit numbers of base 10 starting from `0`, followed by a new line by using `putchar`
+**Task 6:** A program that prints all single digit numbers of base 10 starting from `0`, followed by a new line. Use `putchar`
 
 **Task 7**: A program that prints the lowercase alphabet in reverse, followed by a new line
 
