@@ -2,44 +2,56 @@
 
 **Task 0:** A program that prints `_putchar`, followed by a new line
 
-**Task 1:** A script that prints the effective username of the current user
+**Task 1:** A function that prints the alphabet, in lowercase, followed by a new line. Prototype: `void print_alphabet(void);`
 
-**Task 2:** A script that prints all the groups the current user is part of
+**Task 2:** A function that prints 10 times the alphabet, in lowercase, followed by a new line. Prototype: `void print_alphabet_x10(void);`
 
-**Task 3:** A script that changes the owner of the file `hello` to the user `betty`
+**Task 3:** A function that checks for lowercase character.
 
-**Task 4:** A script that creates an empty file called `hello`
+                      Prototype: 'int _islower(int c);'
+                      Returns 1 if c is lowercase
+                      Returns 0 otherwise
+                      
+**Task 4:** A function that checks for alphabetic character.
 
-**Task 5:** A script that adds execute permission to the owner of the file `hello`. The file `hello` will be in the working directory
+                      Prototype: int _isalpha(int c);
+                      Returns 1 if c is a letter, lowercase or uppercase
+                      Returns 0 otherwise
 
-**Task 6:** A script that adds execute permission to the owner and the group owner, and read permission to other users, to the file `hello`. The file `hello` will be in the working directory
+**Task 5:** A function that prints the sign of a number.
 
-**Task 7:** A script that adds execution permission to the owner, the group owner and the other users, to the file `hello`. The file `hello` will be in the working directory
+                      Prototype: int print_sign(int n);
+                      Returns 1 and prints + if n is greater than zero
+                      Returns 0 and prints 0 if n is zero
+                      Returns -1 and prints - if n is less than zero
 
-**Task 8:** A script that sets the permission to the file `hello` as follows:
+**Task 6:** A function that computes the absolute value of an integer. Prototype: `int _abs(int);`
 
-                 Owner: no permission at all
-                
-                 Group: no permission at all
-                
-                 Other users: all the permissions
+**Task 7:** A function that prints the last digit of a number. Prototype: `int print_last_digit(int);`
 
-**Task 9:** Ascript that sets the mode of the file `hello` to `-rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello`
+**Task 8:** A function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59. Prototype: `void jack_bauer(void);`
 
-**Task 10:** A script that sets the mode of the file `hello` the same as ``olleh``’s mode. Both will be in the working directory
+**Task 9:** A function that prints the 9 times table, starting with 0. Prototype: `void times_table(void);`
 
-**Task 11:** A script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users
+**Task 10:** A function that adds two integers and returns the result. Prototype: `int add(int, int);`
 
-**Task 12:** A script that creates a directory called `my_dir` with permissions 751 in the working directory
+**Task 11:** A unction that prints all natural numbers from n to 98, followed by a new line.
 
-**Task 13:** A script that changes the group owner to `school` for the file `hello`. The file `hello` will be in the working directory
+                      Prototype: void print_to_98(int n);
+                      Numbers must be separated by a comma, followed by a space
+                      Numbers should be printed in order
+                      The first printed number should be the number passed to your function
+                      The last printed number should be 98
 
-**Task 14:** A script that changes the owner to `vincent` and the group owner to `staff` for all the files and directories in the working directory
+**Task 12:** A function that prints the n times table, starting with 0.
 
-**Task 15:** A script that changes the owner and the group owner of `_hello` to `vincent` and `staff` respectively. The file `_hello` is in the working directory and   a symbolic link
+                      Prototype: void print_times_table(int n);
+                      If n is greater than 15 or less than 0 the function should not print anything
 
-**Task 16:** A script that changes the owner of the file `hello` to `betty` only if it is owned by the user `guillaume`
+**Task 13:** If we list all the natural numbers below `10` that are multiples of `3` or `5`, we get `3`, `5`, `6` and `9`. The sum of these multiples is `23`. Write a program that computes and prints the sum of all the multiples of `3` or `5` below `1024` (excluded), followed by a new line.
 
-**Task 17:** A script that will play the StarWars IV episode in the terminal
+**Task 14:** A program that prints the first 50 Fibonacci numbers, starting with `1` and `2`, followed by a new line. The numbers must be separated by comma, followed by a space `,` 
 
+**Task 15:** Each new term in the Fibonacci sequence is generated by adding the previous two terms. By starting with `1` and `2`, the first 10 terms will be: `1, 2, 3, 5, 8, 13, 21, 34, 55, 89`. By considering the terms in the Fibonacci sequence whose values do not exceed 4,000,000, write a program that finds and prints the sum of the even-valued terms, followed by a new line.
 
+**Task 16:** A program that finds and prints the first 98 Fibonacci numbers, starting with `1` and `2`, followed by a new line.
